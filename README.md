@@ -33,6 +33,14 @@ This project uses a trained ML pipeline to analyze transaction details and provi
 - fraud_detection_pipeline.pkl
 - requirements.txt
 
+---
+
+## 📁 Dataset
+
+The dataset used in this project is from Kaggle:  
+https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset
+
+Before running the notebook or training your model, download the dataset and place it in the project directory.
 
 ---
 
@@ -40,7 +48,6 @@ This project uses a trained ML pipeline to analyze transaction details and provi
 ```bash
 pip install -r requirements.txt
 streamlit run fraud_detection.py
-
 
 
 
